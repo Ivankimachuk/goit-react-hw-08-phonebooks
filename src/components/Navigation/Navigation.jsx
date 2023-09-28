@@ -18,7 +18,7 @@ export const Navigation = () => {
           <Logo role="img" aria-label="computer icon">
             💻 
           </Logo>{" "}
-          Your Personal Phonebook
+          Phonebook
         </HeaderWrapper>   
         
         <NavigationContainer>
