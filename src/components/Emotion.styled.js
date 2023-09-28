@@ -46,6 +46,7 @@ height: 30px;
 border-radius: 20px;
 font-size: 18px;
 padding: 10px;
+border: 1px solid black;
 `
 export const ContainerList = styled.ul`
 display: flex;
@@ -114,17 +115,7 @@ export const HeaderWrapper = styled.div`
   }
  
 
-  /* @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-5px);
-    }
-    60% {
-      transform: translateY(-3px);
-    }
-  } */
+ 
 `;
 export const Logo = styled.span`
   font-size: 28px;
@@ -143,27 +134,7 @@ export const Greatings = styled.p`
   color: black;
 `
 
-// export const NavLinkStyled = styled(NavLink)`
-//   text-decoration: none;
-//   color: black; 
-//   font-weight: bold;
-//   font-size: 20px;
-//   border-radius: 20px;
-//   padding: 5px;
-//   transition: color 0.3s ease-in-out;
-//   transition-property: color, background-color ;
-// transition-duration: 350ms;
-// transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-//   &:hover {
-//     background-color: black;
-//     color: white; 
-//   }
-
-//   &.active {
-//     color: white; 
-//   }
-// `;
 
 export const NavLinkStyled = styled(NavLink)`
 color: black;
