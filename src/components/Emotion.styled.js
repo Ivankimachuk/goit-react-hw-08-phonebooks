@@ -1,6 +1,19 @@
 import styled from "@emotion/styled";
 import { NavLink } from "react-router-dom";
 
+export const UpTitle = styled.h1`
+padding: 5px;
+font-size: 60px;
+margin-bottom: 20px;
+text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.2);
+`;
+export const BottomTitle = styled.h2`
+padding: 5px;
+font-size: 40px;
+margin-bottom: 20px;
+text-shadow: 4px 2px 1px rgba(0, 0, 0, 0.2);
+`;
+
 export const Button = styled.button`
 color: black;
 background-color: #DCDCDC;
@@ -45,7 +58,7 @@ export const Input = styled.input`
 height: 30px;
 border-radius: 20px;
 font-size: 18px;
-padding: 10px;
+padding: 25px;
 border: 1px solid black;
 `
 export const ContainerList = styled.ul`
@@ -164,4 +177,8 @@ export const Heading = styled.h1`
   font-size: 96px;
   text-align: center;
   
+`;
+
+export const SubHeading = styled.h4`
+padding: 5px;
 `;

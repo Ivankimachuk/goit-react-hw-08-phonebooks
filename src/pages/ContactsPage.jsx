@@ -5,7 +5,7 @@ import { ContactsList } from "components/ContactsList/ContactsList"
 import { useDispatch, useSelector } from "react-redux";
 import { requestContacts, selectError } from "redux/appReducer";
 import { Helmet } from "react-helmet";
-import { Container } from "components/Emotion.styled";
+import { Container, UpTitle, BottomTitle } from "components/Emotion.styled";
 
 function ContactsPage() {
 
@@ -24,9 +24,9 @@ function ContactsPage() {
           <title>Contacts</title>
         </Helmet>
 
-      <h1>Phonebook</h1>
+      <UpTitle>Phonebook</UpTitle>
       <Form />
-      <h2>Contacts</h2>
+      <BottomTitle>Contacts</BottomTitle>
       <Filter />
       <ContactsList />
       {!!error && <div>{error.message}</div>}
